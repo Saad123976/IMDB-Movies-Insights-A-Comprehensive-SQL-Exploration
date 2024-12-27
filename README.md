@@ -1,4 +1,4 @@
-# **IMDB SQL Analysis**
+
 
 # **Introduction**
 
