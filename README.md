@@ -1,4 +1,4 @@
-# **Report on IMDB SQL Query Analysis**
+# **IMDB SQL Query Analysis**
 
 # **Introduction**
 
@@ -14,23 +14,23 @@ The dataset, named imdb_movies, includes information on movies such as titles, r
 
 A series of SQL queries were executed to derive insights. The queries employed various techniques, including:
 
-Filtering: Extracting movies based on specific conditions, such as release year, runtime, or director.
+* Filtering: Extracting movies based on specific conditions, such as release year, runtime, or director.
 
-Aggregation: Calculating average ratings, total revenue, and movie counts by group.
+* Aggregation: Calculating average ratings, total revenue, and movie counts by group.
 
-Ranking: Using window functions like RANK() and DENSE_RANK() to identify top movies or individuals based on metrics like ratings and revenue.
+* Ranking: Using window functions like RANK() and DENSE_RANK() to identify top movies or individuals based on metrics like ratings      and revenue.
 
-Window Functions: Leveraging functions such as AVG() over partitions to analyze trends within subsets of data.
+* Window Functions: Leveraging functions such as AVG() over partitions to analyze trends within subsets of data.
 
-String Functions: Applying LIKE, FORMAT(), and other functions to filter and format textual data.
+* String Functions: Applying LIKE, FORMAT(), and other functions to filter and format textual data.
 
-Subqueries: Utilizing nested queries to compare metrics against dataset-wide averages.
+* Subqueries: Utilizing nested queries to compare metrics against dataset-wide averages.
 
-Common Table Expressions (CTEs): Simplifying complex queries with readable and reusable temporary result sets.
+* Common Table Expressions (CTEs): Simplifying complex queries with readable and reusable temporary result sets.
 
-Joins: Combining results from temporary subqueries to perform comparative analysis.
+* Joins: Combining results from temporary subqueries to perform comparative analysis.
 
-Formatting: Using functions like FORMAT() to enhance readability.
+* Formatting: Using functions like FORMAT() to enhance readability.
 
 # **Results**
 
