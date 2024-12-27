@@ -1,16 +1,16 @@
-## **Report on IMDB SQL Query Analysis**
+# **Report on IMDB SQL Query Analysis**
 
-## **Introduction**
+# **Introduction**
 
 This report documents the analysis performed on the IMDB movies dataset using SQL queries. The primary objective was to extract meaningful insights related to movie attributes, ratings, revenue, genres, directors, and other key metrics. The queries explored a variety of dimensions, including temporal trends, genre-specific characteristics, and performance metrics such as revenue and runtime.
 
-## **Methodology**
+# **Methodology**
 
-# **Dataset Overview**
+## **Dataset Overview**
 
 The dataset, named imdb_movies, includes information on movies such as titles, release years, ratings, genres, directors, actors, revenue, metascore, runtime, and votes.
 
-# *Query Execution*
+## *Query Execution*
 
 A series of SQL queries were executed to derive insights. The queries employed various techniques, including:
 
@@ -32,9 +32,9 @@ Joins: Combining results from temporary subqueries to perform comparative analys
 
 Formatting: Using functions like FORMAT() to enhance readability.
 
-## **Results**
+# **Results**
 
-# *Movie-Specific Insights*
+## *Movie-Specific Insights*
 
 Movies Released in 2016: A filtered list of movies released in the year 2016 was generated.
 
@@ -48,7 +48,7 @@ Highest-Grossing Movies: Identified the top 10 highest-revenue movies.
 
 Movies Rated Above Average: Extracted movies with ratings exceeding the dataset’s average rating.
 
-# *Genre Analysis*
+## *Genre Analysis*
 
 Unique Genres: All unique genres present in the dataset were identified.
 
@@ -60,7 +60,7 @@ Highest-Rated Movie per Genre: Determined the top-rated movie within each genre.
 
 Most Recent Movie by Genre: Identified the latest movie released for each genre.
 
-# *Director and Actor Analysis*
+## *Director and Actor Analysis*
 
 Number of Movies per Director: Counted movies directed by each director.
 
@@ -72,7 +72,7 @@ Most Diverse Director: Highlighted the director associated with the highest numb
 
 Top 3 Most Popular Actors: Ranked actors based on the total number of votes their movies received.
 
-# *Temporal Analysis*
+## *Temporal Analysis*
 
 Movies Released per Decade: Categorized movies by decade and calculated total counts.
 
@@ -82,7 +82,7 @@ Average Metascore by Year: Tracked changes in metascores over the years.
 
 Movies Released in the Same Year as the Top-Grossing Movie: Analyzed movies sharing the release year with the top-grossing movie.
 
-# *Miscellaneous Insights*
+## *Miscellaneous Insights*
 
 Revenue-to-Runtime Ratio: Identified movies generating more than $1 million per runtime minute.
 
@@ -90,7 +90,7 @@ Movies with More Than 100,000 Votes: Highlighted movies with significant audienc
 
 Title and Name Filters: Used pattern matching to identify movies based on title and participant names.
 
-## **Conclusions**
+# **Conclusions**
 
 The analysis provided actionable insights into various aspects of the IMDB movies dataset:
 
