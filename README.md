@@ -34,7 +34,7 @@ A series of SQL queries were executed to derive insights. The queries employed v
 
 # **Results**
 
-## *Movie-Specific Insights*
+## **Movie-Specific Insights**
 
 * Movies Released in 2016: A filtered list of movies released in the year 2016 was generated.
 
@@ -48,7 +48,7 @@ A series of SQL queries were executed to derive insights. The queries employed v
 
 * Movies Rated Above Average: Extracted movies with ratings exceeding the dataset’s average rating.
 
-## *Genre Analysis*
+## **Genre Analysis**
 
 * Unique Genres: All unique genres present in the dataset were identified.
 
@@ -60,7 +60,7 @@ A series of SQL queries were executed to derive insights. The queries employed v
 
 * Most Recent Movie by Genre: Identified the latest movie released for each genre.
 
-## *Director and Actor Analysis*
+## **Director and Actor Analysis**
 
 * Number of Movies per Director: Counted movies directed by each director.
 
@@ -72,7 +72,7 @@ A series of SQL queries were executed to derive insights. The queries employed v
 
 * Top 3 Most Popular Actors: Ranked actors based on the total number of votes their movies received.
 
-## *Temporal Analysis*
+## **Temporal Analysis**
 
 * Movies Released per Decade: Categorized movies by decade and calculated total counts.
 
@@ -82,7 +82,7 @@ A series of SQL queries were executed to derive insights. The queries employed v
 
 * Movies Released in the Same Year as the Top-Grossing Movie: Analyzed movies sharing the release year with the top-grossing movie.
 
-## *Miscellaneous Insights*
+## **Miscellaneous Insights**
 
 * Revenue-to-Runtime Ratio: Identified movies generating more than $1 million per runtime minute.
 
